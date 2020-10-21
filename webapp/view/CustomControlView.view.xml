@@ -1,0 +1,16 @@
+<core:View xmlns:custom="custom.controls.demo.control" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" displayBlock="true"
+	controllerName="custom.controls.demo.controller.CustomControlView">
+	<App id="idAppControl">
+		<pages>
+			<Page navButtonPress="onNavBack" showNavButton="false" title="Cordova Speech recognition custom control (SAPUI5)" id="thisPage">
+				<content>
+					<Button text="Add Speech recognition control" id="__button0" icon="sap-icon://add" type="Emphasized" press="onButtonPress" width="100%"/>
+					<Input id="idInput"></Input>
+					<Input id="idLog"></Input>
+					<!--<custom:SpeechRecognitionInputControl width="70%" id="spoken1"></custom:SpeechRecognitionInputControl>-->
+					<Button text="Stop" id="__button1" type="Emphasized" press="onButtonStop" width="100%"/>					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</core:View>
